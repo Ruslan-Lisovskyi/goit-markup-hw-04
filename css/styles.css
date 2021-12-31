@@ -210,7 +210,6 @@ img {
     url(../images/hero-bgr.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   flex-grow: 1;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -258,11 +257,6 @@ img {
   justify-content: center;
   padding: 25px 100px;
   margin-bottom: 30px;
-}
-
-.benefits-icons {
-  width: 70px;
-  height: 70px;
 }
 
 .section {
@@ -361,8 +355,6 @@ img {
 }
 
 .team-social-icons {
-  width: 20px;
-  height: 20px;
   fill: var(--icons-color);
 }
 
@@ -396,8 +388,6 @@ img {
 }
 
 .client-icon {
-  width: 106px;
-  height: 60px;
   fill: var(--icons-color);
 }
 
@@ -522,8 +512,6 @@ img {
 }
 
 .footer-social-icons {
-  width: 20px;
-  height: 20px;
   fill: var(--primery-bgr-color);
 }
 
