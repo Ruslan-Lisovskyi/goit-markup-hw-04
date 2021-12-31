@@ -77,6 +77,16 @@ img {
   margin-bottom: 50px;
 }
 
+.after-second-titles {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  margin-bottom: 10px;
+}
+
 /* ----------------HEADER------------------ */
 
 .auth-item {
@@ -260,16 +270,6 @@ img {
   padding-bottom: 94px;
 }
 
-.after-second-titles {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--title-text-color);
-  margin-bottom: 10px;
-}
-
 .benefits-text {
   font-size: 14px;
   line-height: 1.71;
@@ -384,26 +384,26 @@ img {
   margin-right: 30px;
 }
 
-.client-container {
-  border: 1px solid #afb1b8;
+.client-link {
+  border: 1px solid var(--icons-color);
   box-sizing: border-box;
   border-radius: 4px;
-  width: 170px;
-  height: 92px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.client-container:hover,
-.client-container:focus {
-  border-color: var(--btn-color);
+  width: 170px;
+  height: 92px;
 }
 
 .client-icon {
   width: 106px;
   height: 60px;
   fill: var(--icons-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--btn-color);
 }
 
 .client-link:hover,
